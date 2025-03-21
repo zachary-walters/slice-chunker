@@ -7,7 +7,7 @@ The `chunker` package provides a utility function to chunk a slice of any type i
 To install the package, use `go get`:
 
 ```sh
-go get github.com/zachary-walters/slice-chunker/chunker
+go get github.com/zachary-walters/slice-chunker
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ go get github.com/zachary-walters/slice-chunker/chunker
 Import the package into your Go code
 
 ```sh
-import "github.com/zachary-walters/slice-chunker/chunker"
+import "github.com/zachary-walters/slice-chunker"
 ```
 
 ## Function 
@@ -44,7 +44,7 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/zachary-walters/slice-chunker/chunker"
+    chunker "github.com/zachary-walters/slice-chunker"
 )
 
 type Person struct {
