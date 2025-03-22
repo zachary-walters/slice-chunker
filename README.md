@@ -38,6 +38,8 @@ func ChunkSlice[T any](items []T, maxChunkSize int) ([][]T, error)
 
 #### Example
 
+You can find the example [here](example/example.go).
+
 ```go 
 package main
 
