@@ -56,6 +56,8 @@ type Person struct {
 func main() {
     people := []Person{
         {FirstName: "Laura", LastName: "Palmer", Age: 17},
+		{FirstName: "Bobby", LastName: "Briggs", Age: 17},
+		{FirstName: "Dale", LastName: "Cooper", Age: 17},
         // Add more people as needed
     }
 
